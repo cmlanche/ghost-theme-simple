@@ -1,0 +1,52 @@
+.newest-blogs {
+    border-width: 1px;
+    border-color:black;
+}
+.bloglist li {
+    margin: 16px 0;
+}
+.media .media-left p img {
+    border-radius: 24px;        
+}
+.media .media-content .title {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.media .media-content p {
+    font-size: 14px;
+    color: #333;
+}
+.blogerlist .media .media-content .title {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.blogerlist .media .media-content .subtitle {
+    font-size: 10px;
+}
+.blogerlist li{
+    margin: 16px 0;
+}
+.tags .tag span{
+    font-size: 6px;
+}
+.content-header {
+    margin: 0 0 24px 0;
+}
+.content-header a{
+    color: lightgray;
+}
+.content-header a:hover{
+    color: #333;
+}
+.content-header .operation{
+    float: right;
+}
+
+.publish-at {
+    font-size: 13px;
+    color: gray;
+}

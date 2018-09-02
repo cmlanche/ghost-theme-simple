@@ -1,0 +1,24 @@
+.card {
+    border-radius: 2px;
+}
+
+.footer {
+    padding: 1rem;
+}
+
+.box {
+    box-shadow: 0 1px 1px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.footer {
+    background: #363636;
+    color: white;
+}
+
+.footer a{
+    color: white;
+}

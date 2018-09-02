@@ -1,0 +1,72 @@
+{{!< default}}
+
+{{> header}}
+<section class="section">
+        <div class="container is-widescreen">
+            <div class="columns is-variable">
+                <div class="column newest-blogs">
+                    <div class="">
+                        <ul class="bloglist">
+                        {{#foreach posts}}
+                            <li>
+                                <article class="media box">
+                                    <figure class="media-left">
+                                        <p class="image is-48x48">
+                                            <a href="{{primary_author.website}}"><img src="{{primary_author.profile_image}}"></a>
+                                        </p>
+                                    </figure>
+                                    <div class="media-content">
+                                        <h3 class="title"><a href="{{url}}">{{title}}</a></h3>
+                                        <p>{{excerpt characters="200"}}</p>
+                                        <div class="level">
+                                            <div class="level-left">
+                                                <span class="publish-at">{{date published_at timeago="true"}}</span>
+                                            </div>
+                                            <div class="level-right">
+                                                {{> tags}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media-right">
+                                        <p class="image is-128x128">
+                                            <img src="{{feature_image}}">
+                                        </p>
+                                    </div>
+                                </article>
+                            </li>
+                            {{/foreach}}
+                        </ul>
+                        {{pagination}}
+                    </div>
+                </div>
+                <div class="column is-3 bloger-ranking">
+                    <h2 class="title is-4">标签</h2>
+                    <ul class="blogerlist">
+                        <li>
+                            <div class="tags" id="tags">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal blog-view-setting">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                <p class="modal-card-title"></p>
+                <button class="delete close" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                <!-- Content ... -->
+                </section>
+                <footer class="modal-card-foot">
+                <button class="button is-link">保存</button>
+                <button class="button close">取消</button>
+                </footer>
+            </div>
+        </div>
+    </section>
+{{ghost_foot}}
+</body>
+</html>

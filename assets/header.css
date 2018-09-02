@@ -1,0 +1,68 @@
+.logo a span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto 8px;
+    font-style: italic;
+}
+
+.search {
+    width: 100%;
+}
+
+.search .input {
+    width: 50%;
+    font-size: 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-position: 0.625rem 0.625rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    float: right;
+}
+
+.search .control {
+    width: 100%;
+}
+
+.search input:focus {
+    width: 100%;
+    box-shadow: 0 0 10rem rgba(0, 0, 0, 0.2);
+}
+
+.blogerlist li {
+    margin: 16px 0;
+}
+
+.search {
+    margin: 0 16px;
+}
+
+.card {
+    border-radius: 2px;
+}
+
+.headimage img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.headimage button {
+    margin: 16px 0;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.uinfo button {
+    margin: 16px 0;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.user .control img {
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: white;
+    max-height: 2rem;
+}

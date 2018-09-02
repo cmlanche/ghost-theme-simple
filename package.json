@@ -1,0 +1,23 @@
+{
+  "name": "ghost-theme-simple",
+  "version": "1.0.0",
+  "description": "the simple theme for ghost blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple", "ghost theme"
+  ],
+  "author": {
+    "email": "1204833748@qq.com",
+    "name": "cmlanche"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "github-markdown-css": "^2.10.0"
+  },
+  "config": {
+    "posts_per_page": 10
+  }
+}

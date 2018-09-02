@@ -1,0 +1,54 @@
+{{!< default}}
+
+{{> header}}
+
+{{#post}}
+<section class="section">
+    <div class="container is-widescreen">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="blog-detail">
+                    <div class="box">
+                        <h2 class="title is-4">
+                            <i class="fas fa-book-open"></i>&nbsp;&nbsp;{{title}}
+                        </h2>
+                        <img class="image" src="{{feature_image}}">
+                        <article class="markdown-body">
+                        {{content}}
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <!-- 作者区域 -->
+                {{#primary_author}}
+                <div class="author media box">
+                    <figure class="media-left">
+                        <p class="image is-96x96">
+                            <img src="{{profile_image}}">
+                        </p>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content">
+                            <p><span class="author-name"><a href="{{url}}">{{name}}</a></span></p>
+                            <p><span class="location"><i class="fas fa-location-arrow"></i>{{location}}</span></p>
+                            <p><i class="fas fa-link"></i><a class="website" href="{{website}}">{{website}}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {{/primary_author}}
+                <!-- 标签区域 -->
+                {{#if tags}} 
+                    <div class="box">
+                        {{> tags}}
+                    </div>
+                {{/if}}
+                <!-- 内容大纲区域 -->
+                <div class="aside-wrapper">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{/post}}

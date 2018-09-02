@@ -1,0 +1,35 @@
+{{!-- 公共头部 --}}
+<header>
+    <nav class="navbar is-dark is-fixed-top">
+        <div class="navbar-brand logo">
+            <a class="navbar-item" href="/">
+                <img src="{{@blog.logo}}">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarBurgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarBurgerMenu" class="navbar-menu">
+            <div class="navbar-start">
+                {{#if @blog.navigation}}
+                    {{navigation}}
+                {{/if}}
+            </div>
+
+            <div class="navbar-end">
+                {{!-- <div class="navbar-item search">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-rounded is-hovered" type="text" placeholder="搜索博文" 
+                            style="background-image: url('{{asset "images/search.png"}}')">
+                    </div>
+                </div> --}}
+                <div class="navbar-item">
+                    <a class="button is-light is-outlined is-rounded" href="/ghost">&nbsp;&nbsp;管理&nbsp;&nbsp;</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
