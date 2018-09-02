@@ -6,9 +6,7 @@ Ghost博客主题
 
 下载[release版本](https://github.com/cmlanche/ghost-theme-simple/releases)，上传到你的ghost后台中，点击active激活
 
-![image-20180902225945195](http://pc3aukg6f.bkt.clouddn.com/blog/6gokv.png)
-
-![image-20180902230002327](http://pc3aukg6f.bkt.clouddn.com/blog/zfpez.png)
+![image-20180902231523776](http://pc3aukg6f.bkt.clouddn.com/blog/tpqg7.png)
 
 ### 开发
 
